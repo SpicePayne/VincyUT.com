@@ -159,14 +159,14 @@ button:hover {
 
 .photobanner {
     height: 533px;
-    width: auto; /* Change to auto */
+    width: auto; 
     margin: 20px;
-    display: flex; /* Make it a flex container */
+    display: flex;
     animation: bannermove 25s linear infinite;
 }
 
 .photobanner img {
-    margin-right: 10px; /* Add some spacing between images */
+    margin-right: 10px; 
 }
 
 .photobanner img:hover {
@@ -179,7 +179,7 @@ button:hover {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-100% - 10px)); /* Adjust for spacing */
+        transform: translateX(calc(-100% - 10px)); 
     }
 }
 
@@ -213,7 +213,7 @@ button:hover {
 }
 		
 .video {
-    flex: 0 0 55%; /* Take up 50% of the container width */
+    flex: 0 0 55%; 
     margin: 10px;
     border: 5px solid black;
 }	
@@ -224,7 +224,7 @@ button:hover {
 }
 		
 .picture {
-	flex: 0 0 50%; /* Take up 50% of the container width */
+	flex: 0 0 50%; 
 	margin: 20px;
 	border: 5px solid black;
 }
@@ -235,7 +235,7 @@ button:hover {
 }
 
 .content {
-    flex: 0 0 40%; /* Take up 45% of the container width */
+    flex: 0 0 40%; 
     border: 5px solid green;
 }
 
@@ -299,8 +299,8 @@ Code was not copy and pasted */
 .social-icon {
     display: inline-block;
     margin-left: 10px;
-    width: 50px; /* Adjust according to the width of your icons */
-	height: 40px; /* Adjust according to the height of your icons */
+    width: 50px; 
+	height: 40px; 
 }
 
 .social-icon img {
@@ -309,7 +309,7 @@ Code was not copy and pasted */
 }
 
 .social-icon:hover img {
-    opacity: 2.9; /* Adjust the opacity as desired */
+    opacity: 2.9; 
 }
 	
 /* Single Photo acting as a Page Banner*/	
