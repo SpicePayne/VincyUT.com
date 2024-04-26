@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vincy Unique Traditions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <!--Navigation Bar-->
+	<a href="index.html" class="logo"> <img src="images/logo.png" alt="Logo"> Vincy Unique Traditions</a>
+    <ul class="nav"> 
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="GettingHere.html">Getting Here</a></li>
+        <li> <a href="WhereTS.html">Where To Stay</a></li>
+        <li> <a href="Gallery.html">Gallery</a></li>
+        <li> <button id="contactBtn">Contact Us</button></li>
+    </ul>
+</header>
+
+<!-- Contact Form Popup -->
+<div id="contactPopup" class="popup">
+	<div class="popup-content">
+		<span class="close">&times;</span>
+		<h2>Contact Vincy Unique Traditions</h2>
+    <form id="contactForm">
+		<div class="form-group">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Jane John Doe" required>
+		</div>
+		<div class="form-group">
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone" maxlength="15" placeholder="012-345-6789" required>
+		</div>
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+		</div>
+		<div class="form-group">
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="5" placeholder="Write Message Here..." required></textarea>
+		</div>
+		<button type="submit">Send</button>
+    </form>
+    <div id="response"></div>
+  </div>
+</div>
+
+<div class="singlebanner">
+    <img src="images/WTSBanner.png" alt="Banner Photo" id="bannerImage">
+</div>
+  
+<h1> Types of Accomdations Available on Island<h1>
+ 
+<!--accomodation-->
+<div class="card-container">
+   <div class="card">
+		<img src="images/Hotel.jpg" alt="Photo 1">
+	<div class="overlay">
+		<h2>Hotels</h2>
+		<p>List of Tourism Approved and Top Rated Hotels</p>
+    <button class="read-moreb">Read More</button>
+	</div>
+	</div>
+    <div class="card">
+		<img src="images/Apartment.jpg" alt="Photo 2">
+    <div class="overlay">
+        <h2>Apartments</h2>
+        <p>List of Tourism Approved and Top Rated Apartments</p>
+		<button class="read-moreb">Read More</button>
+    </div>
+    </div>
+    <div class="card">
+		<img src="images/Inn.png" alt="Photo 3">
+    <div class="overlay">
+        <h2>Inns</h2>
+        <p>List of Tourism Approved and Top Rated Inns</p>
+		<button class="read-moreb">Read More</button>
+    </div>
+    </div>
+ </div>
+ <div class="card-container">
+    <div class="card">
+      <img src="images/Resort.PNG" alt="Photo 1">
+      <div class="overlay">
+        <h2>Resorts</h2>
+        <p>List of Tourism Approved and Top Rated Resorts</p>
+		<button class="read-moreb">Read More</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/Villa.jpg" alt="Photo 2">
+      <div class="overlay">
+        <h2>Villas</h2>
+        <p>List of Tourism Approved and Top Rated Villa</p>
+		<button class="read-moreb">Read More</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/GuestHouse.jpg" alt="Photo 3">
+      <div class="overlay">
+        <h2>Guest House</h2>
+        <p>List of Tourism Approved and Top Rated Guest Houses</p>
+		<button class="read-moreb">Read More</button>
+      </div>
+    </div>
+</div>
+  
+<footer class="footer">
+    <div class="social-icons">
+        <a href="#" class="social-icon"><img src="images/facebook.svg" alt="Facebook"></a>
+        <a href="#" class="social-icon"><img src="images/instagram.svg" alt="Instagram"></a>
+        <a href="#" class="social-icon"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+        <a href="#" class="social-icon"><img src="images/youtube.svg" alt="YouTube"></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

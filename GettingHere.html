@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vincy Unique Traditions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <!--Navigation Bar-->
+	<a href="index.html" class="logo"> <img src="images/logo.png" alt="Logo"> Vincy Unique Traditions</a>
+    <ul class="nav"> 
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="GettingHere.html">Getting Here</a></li>
+        <li> <a href="WhereTS.html">Where To Stay</a></li>
+        <li> <a href="Gallery.html">Gallery</a></li>
+        <li> <button id="contactBtn">Contact Us</button></li>
+    </ul>
+</header>
+
+<!-- Contact Form Popup -->
+<div id="contactPopup" class="popup">
+	<div class="popup-content">
+		<span class="close">&times;</span>
+		<h2>Contact Vincy Unique Traditions</h2>
+    <form id="contactForm">
+		<div class="form-group">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Jane John Doe" required>
+		</div>
+		<div class="form-group">
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone" maxlength="15" placeholder="012-345-6789" required>
+		</div>
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+		</div>
+		<div class="form-group">
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="5" placeholder="Write Message Here..." required></textarea>
+		</div>
+		<button type="submit">Send</button>
+    </form>
+    <div id="response"></div>
+  </div>
+</div>
+
+<!--singlebanner-->
+<div class="singlebanner">
+	<img src="images/GHBanner.png" alt="Banner Photo" id="bannerImage">
+ </div>
+
+<!--transport sections--> 
+<div class="container1">
+    <div class="picture">
+        <img src="images/flights.png" alt="Picture">
+    </div>
+    <div class="content">
+        <h2>Flights</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante ullamcorper, vestibulum eros ac, tempor ligula. Integer suscipit est sit amet urna feugiat, ut consequat est blandit. Aliquam erat volutpat. Mauris posuere ex et dictum dignissim.</p>
+    </div>
+</div>
+
+<div class="container1b">
+    <div class="content">
+        <h2>Ferry</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante ullamcorper, vestibulum eros ac, tempor ligula. Integer suscipit est sit amet urna feugiat, ut consequat est blandit. Aliquam erat volutpat. Mauris posuere ex et dictum dignissim.</p>
+    </div>
+    <div class="picture">
+         <img src="images/ferry.png" alt="Picture">
+    </div>
+</div>
+
+<div class="container1">
+    <div class="picture">
+         <img src="images/charter.png" alt="Picture" width="100%">
+    </div>
+    <div class="content">
+        <h2>Charter</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante ullamcorper, vestibulum eros ac, tempor ligula. Integer suscipit est sit amet urna feugiat, ut consequat est blandit. Aliquam erat volutpat. Mauris posuere ex et dictum dignissim.</p>
+    </div>
+</div>
+
+<!--GOOGLE MAP-->
+<div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d617538.9342208097!2d-61.613052742408605!3d12.973891742479777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sThings%20to%20do!5e1!3m2!1sen!2suk!4v1713475006397!5m2!1sen!2suk" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!--FOOTER-->
+<footer class="footer">
+    <div class="social-icons">
+        <a href="https://www.facebook.com/vincy.mas" class="social-icon"><img src="images/facebook.svg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/vincy_mas/" class="social-icon"><img src="images/instagram.svg" alt="Instagram"></a>
+        <a href="#" class="social-icon"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+        <a href="#" class="social-icon"><img src="images/youtube.svg" alt="YouTube"></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
